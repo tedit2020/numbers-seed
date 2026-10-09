@@ -1,0 +1,52 @@
+{
+  "disableClaudeAiConnectors": true,
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(/notebook/**)",
+      "Edit(/onboarding/**)",
+      "Edit(/work/**)"
+    ],
+    "deny": [
+      "Edit(/.claude/**)",
+      "Edit(/CLAUDE.md)",
+      "Read(**/.env*)",
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(unlink *)",
+      "Bash(shred *)",
+      "Bash(find * -delete*)",
+      "Bash(sudo *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(scp *)",
+      "Bash(ssh *)",
+      "Bash(osascript *)",
+      "Bash(git push *)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean *)",
+      "Bash(npm install -g*)",
+      "Bash(cmd *)",
+      "Bash(powershell *)",
+      "Bash(pwsh *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Clear-Content *)",
+      "PowerShell(Format-Volume *)",
+      "PowerShell(Start-Process *)",
+      "PowerShell(Set-ExecutionPolicy *)",
+      "PowerShell(Restart-Computer *)",
+      "PowerShell(Stop-Computer *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Invoke-RestMethod *)",
+      "PowerShell(Send-MailMessage *)",
+      "PowerShell(cmd *)",
+      "PowerShell(winget *)",
+      "PowerShell(Install-Module *)",
+      "PowerShell(git push *)",
+      "PowerShell(git reset --hard*)",
+      "PowerShell(git clean *)"
+    ]
+  }
+}
