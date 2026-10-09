@@ -77,7 +77,7 @@ source ~/.zshrc
 
 ## 3. 種を落とす 🌐
 
-1. ブラウザで `<種の置き場の URL>` を開きます。
+1. ブラウザで `https://github.com/tedit2020/numbers-seed` を開きます。
 2. 緑の «Code» のボタン → «Download ZIP» を押します。
 3. 「ダウンロード」フォルダに保存されます。Safari では、自動で展開されてフォルダになっていることがあります。
 
