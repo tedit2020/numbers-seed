@@ -1,0 +1,21 @@
+# 履歴や共有に入れない物の雛形（README の «送らない物» の表と同じ 15 行）
+# 作業の記録・キャッシュ
+debug/
+**/__pycache__/
+*.pyc
+# 録音の生データ
+*_raw.*
+recordings/
+# 取ってきた物・まとめた ZIP
+downloads/
+*.zip
+# 一時ファイル・Windows の付属物
+*.tmp
+~$*
+Thumbs.db
+desktop.ini
+# 鍵の形
+.env*
+secret/
+*.pfx
+*.key

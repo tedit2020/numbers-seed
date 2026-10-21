@@ -27,6 +27,8 @@
       "Bash(git push *)",
       "Bash(git reset --hard*)",
       "Bash(git clean *)",
+      "Bash(git add -A*)",
+      "Bash(git add .*)",
       "Bash(npm install -g*)",
       "Bash(cmd *)",
       "Bash(powershell *)",
@@ -46,7 +48,9 @@
       "PowerShell(Install-Module *)",
       "PowerShell(git push *)",
       "PowerShell(git reset --hard*)",
-      "PowerShell(git clean *)"
+      "PowerShell(git clean *)",
+      "PowerShell(git add -A*)",
+      "PowerShell(git add .*)"
     ]
   }
 }
